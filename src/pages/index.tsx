@@ -321,7 +321,7 @@ export default function Home() {
             data-scroll
             data-scroll-speed="-.01"
             id={styles["canvas-container"]}
-            className="mt-14 h-full w-full xl:mt-0"
+            className="mt-14 w xl:mt-0"
           >
             {/* CEGSO_home */}
             <div
@@ -329,10 +329,10 @@ export default function Home() {
               data-scroll-speed="-.01"
               id={styles["canvas-container"]}
               className="mt-14 h-full w-full xl:mt-0"
-              style={{ border: 'none', padding: 0 }} 
+              style={{ border: 'none', padding: 90 }} 
             >
               <Image
-                src="/assets/CEGSO_home_3.png" // Replace with your image path
+                src="/assets/CEGSO_home_5_tr.png" // Replace with your image path
                 alt="CEGSO"
                 layout="responsive"
                 width={400}  // Adjust width to your needs
@@ -501,7 +501,7 @@ export default function Home() {
         </h2>
         <div className="container mx-auto">
           <iframe
-            src="//lightwidget.com/widgets/075eb3e585e55b1eac7c94b9abdae4e7.html"
+            src="//lightwidget.com/widgets/0d468155b0cd583fa9f7c49a04856222.html"
             
             
             className="lightwidget-widget"
