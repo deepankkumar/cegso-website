@@ -332,7 +332,7 @@ export default function Home() {
               style={{ border: 'none', padding: 90 }} 
             >
               <Image
-                src="/assets/CEGSO_home_5_tr.png" // Replace with your image path
+                src="/assets/cegso_home_5_tr.png" // Replace with your image path
                 alt="CEGSO"
                 layout="responsive"
                 width={400}  // Adjust width to your needs
