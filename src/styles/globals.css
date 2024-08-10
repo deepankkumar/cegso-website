@@ -1,0 +1,109 @@
+@import "clash-grotesk.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 10%; /* Darker background */
+    --foreground: 0 0% 98%; /* Lighter foreground text */
+
+    --card: 0 84% 5%; /* Dark card background */
+    --card-foreground: 0 0% 98%; /* Light text on card */
+
+    --popover: 0 84% 5%; /* Popover background */
+    --popover-foreground: 0 0% 98%; /* Popover text */
+
+    --primary: 0 100% 50%; /* Red primary color */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+
+    --secondary: 0 80% 50%; /* Lighter red for secondary */
+    --secondary-foreground: 0 0% 20%; /* Darker text on secondary */
+
+    --muted: 0 10% 30%; /* Muted color for backgrounds */
+    --muted-foreground: 0 10% 70%; /* Muted text */
+
+    --accent: 0 60% 40%; /* Accent color */
+    --accent-foreground: 0 0% 98%; /* Light text on accent */
+
+    --destructive: 0 62.8% 30.6%; /* Strong red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White text on destructive */
+
+    --border: 0 10% 20%; /* Border color */
+    --input: 0 10% 20%; /* Input background color */
+    --ring: 0 100% 80%; /* Bright red ring for focus states */
+
+    --radius: 0.5rem;
+  }
+}
+/* global elements */
+@layer base {
+  html[data-scroll-orientation="horizontal"] {
+    body {
+      @apply w-fit;
+    }
+    [data-scroll-container] {
+      @apply flex;
+    }
+  }
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-background text-foreground cursor-wait;
+  }
+  section {
+    scroll-margin-top: 4rem;
+  }
+}
+
+/* custom scrollbar */
+@layer base {
+  ::-webkit-scrollbar {
+    @apply h-2.5 w-2 transition;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    @apply bg-primary;
+  }
+}
+
+/* custom styles */
+@layer base {
+  .clash-grotesk {
+    font-family: "ClashGrotesk-Variable", sans-serif;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-br from-primary to-secondary bg-clip-text text-transparent;
+  }
+  .nav-active {
+    color: rgb(226 232 240) !important;
+    @apply text-sm lowercase tracking-tight text-slate-200;
+  }
+  .nav-link {
+    /* Remove the styles from nav-link class */
+    @apply text-sm lowercase tracking-tight text-slate-400;
+  }
+
+  /* blinking animation */
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+}
