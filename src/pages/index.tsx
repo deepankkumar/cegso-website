@@ -62,7 +62,7 @@ const team = [
   },
   {
     name: "Abdulrahman Salah ",
-    role: "Secretary",
+    role: "Media Manager",
     image: "/assets/Salah.jpeg",
     linkedIn: "https://www.linkedin.com/in/engbinsalah/",
   }
