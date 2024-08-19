@@ -42,6 +42,13 @@ export default function Footer() {
             <p className="text-xs text-muted-foreground">Local time:</p>
             <p className="text-sm font-semibold">{time} UTC+1</p>
           </span>
+
+          <a href="https://www.linkedin.com/company/cegso/about/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin text-primary text-2xl"></i>
+          </a>
+          <a href="https://instagram.com/cegsoatuh" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram text-primary text-2xl"></i>
+          </a>
         </span>
         
       </div>

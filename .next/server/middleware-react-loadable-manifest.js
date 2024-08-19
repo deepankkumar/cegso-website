@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> locomotive-scroll\":{\"id\":\"index.tsx -> locomotive-scroll\",\"files\":[\"static/chunks/node_modules_pnpm_locomotive-scroll_5_0_0-beta_11_node_modules_locomotive-scroll_dist_locomot-361ef8.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"pages/index.tsx -> locomotive-scroll\":{\"id\":\"pages/index.tsx -> locomotive-scroll\",\"files\":[\"static/chunks/node_modules_locomotive-scroll_dist_locomotive-scroll_modern_mjs.js\"]}}"

@@ -305,6 +305,14 @@ export default function Home() {
               >
                 Learn More
               </Button>
+              <Button
+                variant="outline"
+                onClick={() => window.open('https://forms.gle/your-google-form-link', '_blank')}
+                className="flex items-center space-x-2"
+              >
+                <i className="fas fa-user-plus"></i>
+                <span>Join CEGSO</span>
+              </Button>
             </span>
 
             <div
@@ -523,7 +531,9 @@ export default function Home() {
         <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
           We’d love to hear from you! Whether you have a question, want to get involved, or just want to say hello, feel free to reach out using the form below or directly at <a href="mailto:cegsoatuh@gmail.com" className="text-primary underline">cegsoatuh@gmail.com</a>.
         </p>
-
+        <div className="flex space-x-4 mt-4">
+          
+        </div>
         <form onSubmit={handleSubmit} className="mt-8 w-full max-w-lg text-left">
           <div className="mb-4">
             <label className="block text-white text-sm font-bold mb-2" htmlFor="name">

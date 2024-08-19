@@ -2,6 +2,7 @@ import { type AppType } from "next/dist/shared/lib/utils";
 
 import "@/styles/globals.css";
 import "@/styles/locomotive-scroll.css";
+import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome CSS
 
 import { DM_Sans } from "next/font/google";
 
