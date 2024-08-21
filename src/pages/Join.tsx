@@ -10,9 +10,7 @@ const JoinPage: React.FC = () => {
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdL5igoIoOmkGziKZU6F69enYVjui4PAZsXMbY_7sVP8SauJw/viewform?embedded=true"
             className="w-full h-screen"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
+
           >
             Loading…
           </iframe>
