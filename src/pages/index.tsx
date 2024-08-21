@@ -307,7 +307,7 @@ export default function Home() {
               </Button>
               <Button
                 variant="outline"
-                onClick={() => window.open('https://forms.gle/your-google-form-link', '_blank')}
+                onClick={() => window.location.href = '/Join'}
                 className="flex items-center space-x-2"
               >
                 <i className="fas fa-user-plus"></i>
