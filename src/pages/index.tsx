@@ -307,7 +307,7 @@ export default function Home() {
               </Button>
               <Button
                 variant="outline"
-                onClick={() => window.location.href = '/Join'}
+                onClick={() => window.location.href = 'https://forms.gle/5dC8F6z5ZnssvGUF6'}
                 className="flex items-center space-x-2"
               >
                 <i className="fas fa-user-plus"></i>
