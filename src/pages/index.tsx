@@ -30,8 +30,7 @@ import VanillaTilt from "vanilla-tilt";
 import { motion } from "framer-motion";
 
 const aboutStats = [
-  { label: "Events Organized", value: "2+" },
-  { label: "Active Members", value: "10+" },
+  { label: "Active Members", value: "30+" },
   { label: "Founding Year", value: "2024" },
 ];
 
