@@ -312,7 +312,16 @@ export default function Home() {
                 <i className="fas fa-user-plus"></i>
                 <span>Join CEGSO</span>
               </Button>
+              <Button
+                variant="outline"
+                onClick={() => window.location.href = 'https://chat.whatsapp.com/E6AwVO5W9Bn8aNfm2OoP4Z'}
+                className="flex items-center space-x-2"
+              >
+                <i className="fas fa-user-plus"></i>
+                <span>Join WA Group</span>
+              </Button>
             </span>
+              
 
             <div
               className={cn(
